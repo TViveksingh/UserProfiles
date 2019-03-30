@@ -1,6 +1,7 @@
 import { BrowserModule } from '@angular/platform-browser';
 import { HttpClientModule } from '@angular/common/http';
 import { NgModule } from '@angular/core';
+import { FlexLayoutModule } from '@angular/flex-layout';
 import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
 import { AboutComponent } from './about/about.component';
@@ -13,6 +14,7 @@ import { FooterComponent } from './landingpage/footer/footer.component';
 import { ContainerComponent } from './landingpage/container/container.component';
 import { SidenavComponent } from './landingpage/sidenav/sidenav.component';
 import { MaincontentComponent } from './landingpage/maincontent/maincontent.component';
+import { from } from 'rxjs';
 
 
 
@@ -33,6 +35,7 @@ import { MaincontentComponent } from './landingpage/maincontent/maincontent.comp
     AppRoutingModule,
     BrowserAnimationsModule,
     MaterialsModule,
+    FlexLayoutModule,
     FormsModule,
     ReactiveFormsModule
   ],
